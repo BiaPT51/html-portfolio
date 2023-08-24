@@ -1,0 +1,160 @@
+/* Shared Styles for All Pages */
+
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #ff6b6b;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+nav {
+  background-color: #ff6b6b;
+  padding: 0.5em;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1em;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffb7b7;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+section {
+  margin-bottom: 2em;
+  text-align: center; /* Center content within sections */
+}
+
+h2 {
+  color: #333;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5em;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+/* Additional shared styles for buttons */
+
+.cta-button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  /*display: block;*/
+  
+}
+
+.cta-button:hover {
+  background-color: #ffb7b7;
+}
+
+/* Additional shared styles for modals */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 4px;
+  width: 80%;
+  position: relative;
+}
+
+.close-modal {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Itinerary Details Styles */
+#itinerary-details {
+  padding: 20px;
+}
+
+.destination {
+  margin-bottom: 20px;
+}
+
+.destination h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.destination img {
+  /*padding-top:20px;*/
+  width:400px; 
+  height:250px;
+}
+
+/* Estilos para a imagem */
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+}
+ /*Estilo para tirar a linha de todos os elementos a*/
+
+a {
+  text-decoration: none;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(84, 18, 18);
+  cursor: pointer;
+}
+
+
+
+.camping_img{
+  width:400px; 
+  height:350px;
+  cursor: pointer;
+}

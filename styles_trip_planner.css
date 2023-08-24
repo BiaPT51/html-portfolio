@@ -1,0 +1,162 @@
+/* Styles for the Trip Planner Page */
+
+#trip-itinerary {
+  background-color: #ffedb3;
+  border: 1px solid #ddd;
+  padding: 1em;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles for trip planner page */
+
+.day {
+  margin-bottom: 1.5em;
+  padding: 1.5em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.day h3 {
+  margin: 0;
+  color: #ff6b6b;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:large;
+}
+
+.day p {
+  margin: 23px 0px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.day h4 {
+  margin-top: 1em;
+}
+
+.day ul {
+  margin: 0;
+  padding-left: 1.5em;
+}
+
+.day ul li {
+  list-style-type: disc;
+}
+/*button?*/
+
+.day1-button {
+  background-color: #ffe66b;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.day1-button:hover {
+  background-color: #faedaa;
+}
+
+.day2-button {
+  background-color: #6bd0ff;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.day2-button:hover {
+  background-color: #ade5ff;
+}
+
+.day3-button {
+    background-color: #ff6bc1;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+.day3-button:hover {
+    background-color: #ffb1df;
+
+  }
+
+.day4-button {
+    background-color: #6bff7f;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.day4-button:hover {
+    background-color: #abfab5;
+
+  }
+.day5-button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+.day5-button:hover {
+    background-color: #ffacac;
+
+  }
+.day6-button {
+    background-color: #6b6eff;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+.day6-button:hover {
+    background-color: #afb0ff;
+
+  }
+.day7-button {
+    background-color: #b56bff;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+.day7-button:hover {
+    background-color: #d3a9fe;
+
+  }
+
+  
+#add-day {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1em;
+  transition: background-color 0.3s;
+}
+
+#add-day:hover {
+  background-color: #ffb7b7;
+}
